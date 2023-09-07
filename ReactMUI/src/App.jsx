@@ -2,6 +2,7 @@ import './App.css'
 import {MuiButton} from "./components/Button/MuiButton.jsx";
 import {MuiTextField} from "./components/TextField/MuiTextField.jsx";
 import {MuiSelect} from "./components/Select/MuiSelect.jsx";
+import {MuiRadioButton} from "./components/RadioButton/MuiRadioButton.jsx";
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
         <>
             {/*<MuiButton/>*/}
             {/*<MuiTextField/>*/}
-            <MuiSelect/>
+            {/*<MuiSelect/>*/}
+            <MuiRadioButton/>
         </>
     )
 }
