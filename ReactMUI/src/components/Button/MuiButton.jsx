@@ -6,7 +6,7 @@ import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined'
 import React, {useState} from 'react';
 
 export const MuiButton = () => {
-    const [formats, setFormats] = React.useState([]);
+    const [formats, setFormats] = useState([]);
     console.log(formats)
 
     const handleFormat = (event, newFormats) => {
