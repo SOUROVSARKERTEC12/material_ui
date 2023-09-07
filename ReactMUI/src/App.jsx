@@ -1,15 +1,13 @@
-import HlwBtn from './components/hlwBtn'
 import './App.css'
-import MuiTypography from "./components/Typography/MuiTypography.jsx";
+import {MuiButton} from "./components/Button/MuiButton.jsx";
 
 function App() {
 
-  return (
-    <>
-      <HlwBtn/>
-        <MuiTypography/>
-    </>
-  )
+    return (
+        <>
+            <MuiButton/>
+        </>
+    )
 }
 
 export default App
