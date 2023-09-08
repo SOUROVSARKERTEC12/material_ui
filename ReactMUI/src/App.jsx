@@ -8,6 +8,7 @@ import {MuiSwitch} from "./components/Switch/MuiSwitch.jsx";
 import {MuiRating} from "./components/Rating/MuiRating.jsx";
 import {MuiAutoComplete} from "./components/AutoComplete/MuiAutoComplete.jsx";
 import {MuiBox} from "./components/Box/MuiBox.jsx";
+import {MuiStack} from "./components/Stack/MuiStack.jsx";
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
             {/*<MuiSwitch/>*/}
             {/*<MuiRating/>*/}
             {/*<MuiAutoComplete/>*/}
-            <MuiBox/>
+            {/*<MuiBox/>*/}
+            <MuiStack/>
         </>
     )
 }
