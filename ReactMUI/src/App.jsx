@@ -5,6 +5,7 @@ import {MuiSelect} from "./components/Select/MuiSelect.jsx";
 import {MuiRadioButton} from "./components/RadioButton/MuiRadioButton.jsx";
 import {MuiCheckbox} from "./components/Checkbox/MuiCheckbox.jsx";
 import {MuiSwitch} from "./components/Switch/MuiSwitch.jsx";
+import {MuiRating} from "./components/Rating/MuiRating.jsx";
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
             {/*<MuiSelect/>*/}
             {/*<MuiRadioButton/>*/}
             {/*<MuiCheckbox/>*/}
-            <MuiSwitch/>
+            {/*<MuiSwitch/>*/}
+            <MuiRating/>
         </>
     )
 }
