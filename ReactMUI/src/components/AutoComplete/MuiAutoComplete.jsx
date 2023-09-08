@@ -13,13 +13,7 @@ export const MuiAutoComplete = () => {
 
         if (newMovie) {
             const selectedIndex = top100Films.findIndex((film) => film.label === newMovie);
-
-            const selectedFilm = top100Films[selectedIndex];
-            const { id, label, year } = selectedFilm;
-
-            setSelectedIndex(id);
-
-            console.log(id, label, year);
+            setSelectedIndex(selectedIndex);
         } else {
             setSelectedIndex(null);
         }
@@ -34,17 +28,11 @@ export const MuiAutoComplete = () => {
                               setValue(newValue)}
                           freeSolo
             />
-            <Autocomplete options={top100Films.map((film) => film.label)}
+            <Autocomplete options={top100Films}
                           renderInput={(params) => <TextField {...params} label="Movie"/>}
                           value={movie}
                           onChange={handleChange}
             />
-            {selectedIndex !== null && (
-                <div>
-                    <p>Selected Index: {selectedIndex}</p>
-                    <p>Selected Movie ID: {top100Films[selectedIndex - 1].id}</p>
-                </div>
-            )}
         < /Stack>
     )
 }
