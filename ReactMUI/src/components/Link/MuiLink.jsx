@@ -7,7 +7,6 @@ export const MuiLink = () => {
             <Typography variant='h6'>
                 <Link href="#" color="secondary" underline="hover">Link</Link>
             </Typography>
-
         </Stack>
     )
 }
