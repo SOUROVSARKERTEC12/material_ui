@@ -17,6 +17,7 @@ import {MuiImageList} from "./components/ImageList/MuiImageList.jsx";
 import {MuiNavbar} from "./components/Navbar/MuiNavbar.jsx";
 import {MuiLink} from "./components/Link/MuiLink.jsx";
 import {MuiBreadCrumbs} from "./components/BreadCrumbs/MuiBreadCrumbs.jsx";
+import {MuiDrawer} from "./components/Drawer/MuiDrawer.jsx";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
             <MuiNavbar/>
             {/*<MuiLink/>*/}
             <MuiBreadCrumbs/>
+            <MuiDrawer/>
         </>
     )
 }
