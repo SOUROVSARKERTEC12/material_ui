@@ -10,6 +10,7 @@ import {MuiAutoComplete} from "./components/AutoComplete/MuiAutoComplete.jsx";
 import {MuiBox} from "./components/Box/MuiBox.jsx";
 import {MuiStack} from "./components/Stack/MuiStack.jsx";
 import {MuiGrid} from "./components/Grid/MuiGrid.jsx";
+import {MuiPaper} from "./components/Paper/MuiPaper.jsx";
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
             {/*<MuiAutoComplete/>*/}
             {/*<MuiBox/>*/}
             {/*<MuiStack/>*/}
-            <MuiGrid/>
+            {/*<MuiGrid/>*/}
+            <MuiPaper/>
         </>
     )
 }
