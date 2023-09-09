@@ -19,6 +19,7 @@ import {MuiLink} from "./components/Link/MuiLink.jsx";
 import {MuiBreadCrumbs} from "./components/BreadCrumbs/MuiBreadCrumbs.jsx";
 import {MuiDrawer} from "./components/Drawer/MuiDrawer.jsx";
 import {MuiSpeedDial} from "./components/SpeedDial/MuiSpeedDial.jsx";
+import {MuiBottomNavigation} from "./components/BottomNavigation/MuiBottomNavigation.jsx";
 
 function App() {
 
@@ -40,10 +41,11 @@ function App() {
             {/*<MuiAccordion/>*/}
             {/*<MuiImageList/>*/}
             <MuiNavbar/>
-            {/*<MuiLink/>*/}
+            <MuiLink/>
             <MuiBreadCrumbs/>
             <MuiDrawer/>
             <MuiSpeedDial/>
+            <MuiBottomNavigation/>
         </>
     )
 }
