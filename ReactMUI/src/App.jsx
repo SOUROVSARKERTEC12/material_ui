@@ -15,6 +15,7 @@ import {MuiCard} from "./components/Card/MuiCard.jsx";
 import {MuiAccordion} from "./components/Accordion/MuiAccordion.jsx";
 import {MuiImageList} from "./components/ImageList/MuiImageList.jsx";
 import {MuiNavbar} from "./components/Navbar/MuiNavbar.jsx";
+import {MuiLink} from "./components/Link/MuiLink.jsx";
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
             {/*<MuiAccordion/>*/}
             {/*<MuiImageList/>*/}
             <MuiNavbar/>
+            <MuiLink/>
         </>
     )
 }
