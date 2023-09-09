@@ -11,6 +11,7 @@ import {MuiBox} from "./components/Box/MuiBox.jsx";
 import {MuiStack} from "./components/Stack/MuiStack.jsx";
 import {MuiGrid} from "./components/Grid/MuiGrid.jsx";
 import {MuiPaper} from "./components/Paper/MuiPaper.jsx";
+import {MuiCard} from "./components/Card/MuiCard.jsx";
 
 function App() {
 
@@ -27,7 +28,8 @@ function App() {
             {/*<MuiBox/>*/}
             {/*<MuiStack/>*/}
             {/*<MuiGrid/>*/}
-            <MuiPaper/>
+            {/*<MuiPaper/>*/}
+            <MuiCard/>
         </>
     )
 }
