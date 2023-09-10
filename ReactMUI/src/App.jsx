@@ -32,10 +32,11 @@ import {MuiDialog} from "./components/Dialog/MuiDialog.jsx";
 import {MuiProgress} from "./components/Progress/MuiProgress.jsx";
 import {MuiSkeleton} from "./components/Skeleton/MuiSkeleton.jsx";
 import {MuiLoadingButton} from "./components/MUILab/MuiLoadingButton.jsx";
+import {MuiPicker} from "./components/MUILab/MuiPicker.jsx";
 
 function App() {
     return (
-        <>
+        <div className="App">
             {/*<MuiButton/>*/}
             {/*<MuiTextField/>*/}
             {/*<MuiSelect/>*/}
@@ -68,8 +69,9 @@ function App() {
             {/*<MuiDialog/>*/}
             {/*<MuiProgress/>*/}
             {/*<MuiSkeleton/>*/}
-            <MuiLoadingButton />
-        </>
+            {/*<MuiLoadingButton/>*/}
+            <MuiPicker/>
+        </div>
     )
 }
 
