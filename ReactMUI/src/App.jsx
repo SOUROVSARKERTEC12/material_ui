@@ -28,6 +28,7 @@ import {MuiTooltip} from "./components/Tooltip/MuiTooltip.jsx";
 import {MuiTable} from "./components/Table/MuiTable.jsx";
 import {MuiAlert} from "./components/Alert/MuiAlert.jsx";
 import {MuiSnackbar} from "./components/Snackbar/MuiSnackbar.jsx";
+import {MuiDialog} from "./components/Dialog/MuiDialog.jsx";
 
 function App() {
 
@@ -61,7 +62,8 @@ function App() {
             {/*<MuiTooltip/>*/}
             {/*<MuiTable/>*/}
             {/*<MuiAlert/>*/}
-            <MuiSnackbar/>
+            {/*<MuiSnackbar/>*/}
+            <MuiDialog/>
         </>
     )
 }
