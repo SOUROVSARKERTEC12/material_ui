@@ -26,6 +26,7 @@ import {MuiList} from "./components/List/MuiList.jsx";
 import {MuiChip} from "./components/Chip/MuiChip.jsx";
 import {MuiTooltip} from "./components/Tooltip/MuiTooltip.jsx";
 import {MuiTable} from "./components/Table/MuiTable.jsx";
+import {MuiAlert} from "./components/Alert/MuiAlert.jsx";
 
 function App() {
 
@@ -57,7 +58,8 @@ function App() {
             {/*<MuiList/>*/}
             {/*<MuiChip/>*/}
             {/*<MuiTooltip/>*/}
-            <MuiTable/>
+            {/*<MuiTable/>*/}
+            <MuiAlert/>
         </>
     )
 }
