@@ -33,10 +33,11 @@ import {MuiProgress} from "./components/Progress/MuiProgress.jsx";
 import {MuiSkeleton} from "./components/Skeleton/MuiSkeleton.jsx";
 import {MuiLoadingButton} from "./components/MUILab/MuiLoadingButton.jsx";
 import {MuiPicker} from "./components/MUILab/MuiPicker.jsx";
+import {MuiDateRangePicker} from "./components/MUILab/MuiDateRangePicker.jsx";
 
 function App() {
     return (
-        <div className="App">
+        <>
             {/*<MuiButton/>*/}
             {/*<MuiTextField/>*/}
             {/*<MuiSelect/>*/}
@@ -70,8 +71,9 @@ function App() {
             {/*<MuiProgress/>*/}
             {/*<MuiSkeleton/>*/}
             {/*<MuiLoadingButton/>*/}
-            <MuiPicker/>
-        </div>
+            {/*<MuiPicker/>*/}
+            <MuiDateRangePicker/>
+        </>
     )
 }
 
