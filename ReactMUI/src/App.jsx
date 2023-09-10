@@ -30,6 +30,7 @@ import {MuiAlert} from "./components/Alert/MuiAlert.jsx";
 import {MuiSnackbar} from "./components/Snackbar/MuiSnackbar.jsx";
 import {MuiDialog} from "./components/Dialog/MuiDialog.jsx";
 import {MuiProgress} from "./components/Progress/MuiProgress.jsx";
+import {MuiSkeleton} from "./components/Skeleton/MuiSkeleton.jsx";
 
 function App() {
 
@@ -65,7 +66,8 @@ function App() {
             {/*<MuiAlert/>*/}
             {/*<MuiSnackbar/>*/}
             {/*<MuiDialog/>*/}
-            <MuiProgress/>
+            {/*<MuiProgress/>*/}
+            <MuiSkeleton/>
         </>
     )
 }
