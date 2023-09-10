@@ -20,6 +20,7 @@ import {MuiBreadCrumbs} from "./components/BreadCrumbs/MuiBreadCrumbs.jsx";
 import {MuiDrawer} from "./components/Drawer/MuiDrawer.jsx";
 import {MuiSpeedDial} from "./components/SpeedDial/MuiSpeedDial.jsx";
 import {MuiBottomNavigation} from "./components/BottomNavigation/MuiBottomNavigation.jsx";
+import {MuiAvatar} from "./components/Avatar/MuiAvatar.jsx";
 
 function App() {
 
@@ -40,12 +41,13 @@ function App() {
             {/*<MuiCard/>*/}
             {/*<MuiAccordion/>*/}
             {/*<MuiImageList/>*/}
-            <MuiNavbar/>
-            <MuiLink/>
-            <MuiBreadCrumbs/>
-            <MuiDrawer/>
-            <MuiSpeedDial/>
-            <MuiBottomNavigation/>
+            {/*<MuiNavbar/>*/}
+            {/*<MuiLink/>*/}
+            {/*<MuiBreadCrumbs/>*/}
+            {/*<MuiDrawer/>*/}
+            {/*<MuiSpeedDial/>*/}
+            {/*<MuiBottomNavigation/>*/}
+            <MuiAvatar/>
         </>
     )
 }

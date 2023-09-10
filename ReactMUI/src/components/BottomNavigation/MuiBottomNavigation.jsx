@@ -9,7 +9,7 @@ export const MuiBottomNavigation = () => {
     const [value, setValue] =useState(0);
 
     return (
-        <Box sx={{ width: 500 }}>
+        <Box sx={{ width: '100%' }}>
             <BottomNavigation
                 showLabels
                 value={value}
