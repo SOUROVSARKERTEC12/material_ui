@@ -22,6 +22,7 @@ import {MuiSpeedDial} from "./components/SpeedDial/MuiSpeedDial.jsx";
 import {MuiBottomNavigation} from "./components/BottomNavigation/MuiBottomNavigation.jsx";
 import {MuiAvatar} from "./components/Avatar/MuiAvatar.jsx";
 import {MuiBadge} from "./components/Badge/MuiBadge.jsx";
+import {MuiList} from "./components/List/MuiList.jsx";
 
 function App() {
 
@@ -48,8 +49,9 @@ function App() {
             {/*<MuiDrawer/>*/}
             {/*<MuiSpeedDial/>*/}
             {/*<MuiBottomNavigation/>*/}
-            <MuiAvatar/>
+            {/*<MuiAvatar/>*/}
             <MuiBadge/>
+            <MuiList/>
         </>
     )
 }
