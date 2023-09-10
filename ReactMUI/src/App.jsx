@@ -37,6 +37,7 @@ import {MuiDateRangePicker} from "./components/MUILab/MuiDateRangePicker.jsx";
 import {MuiTabs} from "./components/Tabs/MuiTabs.jsx";
 import {MuiTimeline} from "./components/Timeline/MuiTimeline.jsx";
 import {MuiMasonry} from "./components/Masonry/MuiMasonry.jsx";
+import {MuiResponsiveness} from "./components/Resposiveness/MuiResponsiveness.jsx";
 
 function App() {
     return (
@@ -78,7 +79,8 @@ function App() {
             {/*<MuiDateRangePicker/>*/}
             {/*<MuiTabs/>*/}
             {/*<MuiTimeline/>*/}
-            <MuiMasonry/>
+            {/*<MuiMasonry/>*/}
+            <MuiResponsiveness/>
         </>
     )
 }
