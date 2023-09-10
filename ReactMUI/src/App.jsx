@@ -24,6 +24,7 @@ import {MuiAvatar} from "./components/Avatar/MuiAvatar.jsx";
 import {MuiBadge} from "./components/Badge/MuiBadge.jsx";
 import {MuiList} from "./components/List/MuiList.jsx";
 import {MuiChip} from "./components/Chip/MuiChip.jsx";
+import {MuiTooltip} from "./components/Tooltip/MuiTooltip.jsx";
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
             {/*<MuiBadge/>*/}
             {/*<MuiList/>*/}
             <MuiChip/>
+            <MuiTooltip/>
         </>
     )
 }

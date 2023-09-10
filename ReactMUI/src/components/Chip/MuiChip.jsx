@@ -17,11 +17,9 @@ export const MuiChip = () => {
             <Chip label='Click' color='success' onClick={() => alert('Clicked')}/>
             <Chip label='Delete' color='error' onClick={() => alert('Clicked')}
                   onDelete={() => alert('Delete handler called')}/>
-            {
-                chips.map((chip)=>(
+            {chips.map((chip)=>(
                     <Chip key={chip} label={chip} onDelete={()=> handleDelete(chip)}/>
-                ))
-            }
+                ))}
         </Stack>
     )
 }
