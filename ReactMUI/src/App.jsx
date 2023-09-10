@@ -27,6 +27,7 @@ import {MuiChip} from "./components/Chip/MuiChip.jsx";
 import {MuiTooltip} from "./components/Tooltip/MuiTooltip.jsx";
 import {MuiTable} from "./components/Table/MuiTable.jsx";
 import {MuiAlert} from "./components/Alert/MuiAlert.jsx";
+import {MuiSnackbar} from "./components/Snackbar/MuiSnackbar.jsx";
 
 function App() {
 
@@ -59,7 +60,8 @@ function App() {
             {/*<MuiChip/>*/}
             {/*<MuiTooltip/>*/}
             {/*<MuiTable/>*/}
-            <MuiAlert/>
+            {/*<MuiAlert/>*/}
+            <MuiSnackbar/>
         </>
     )
 }
